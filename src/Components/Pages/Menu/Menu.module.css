@@ -1,0 +1,11 @@
+.header {
+  height: 40vh;
+  width: 100%;
+  background-image: url("../../../assets/pictures/mini-resto-menu-heading.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+header h2 {
+  margin: 0;
+}
