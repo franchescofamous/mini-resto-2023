@@ -9,3 +9,53 @@
 header h2 {
   margin: 0;
 }
+.meals__list {
+  display: flex;
+}
+.meals__card {
+  margin-left: 80px;
+  min-height: 30vh;
+  width: 30vh;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meals__card__image {
+  height: 20vh;
+  width: 70%;
+  overflow: hidden;
+  margin-top: 1vh;
+  background-image: url("../../../assets/icons/icons8-meal-52.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.meals__card__description {
+  width: 80%;
+}
+
+.drinks__list {
+  display: flex;
+}
+
+.drinks__card {
+  margin-left: 80px;
+  min-height: 30vh;
+  width: 30vh;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.drinks__card__image {
+  height: 20vh;
+  width: 70%;
+  overflow: hidden;
+  margin-top: 1vh;
+  background-image: url("../../../assets/icons/icons8-drink-50.png");
+  background-position: center;
+  background-size: cover;
+}
